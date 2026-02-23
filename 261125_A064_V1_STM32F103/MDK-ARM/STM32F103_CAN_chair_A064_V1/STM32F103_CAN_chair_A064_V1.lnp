@@ -3,6 +3,8 @@
 "stm32f103_can_chair_a064_v1\main.o"
 "stm32f103_can_chair_a064_v1\stm32f1xx_it.o"
 "stm32f103_can_chair_a064_v1\stm32f1xx_hal_msp.o"
+"stm32f103_can_chair_a064_v1\crc.o"
+"stm32f103_can_chair_a064_v1\io.o"
 "stm32f103_can_chair_a064_v1\stm32f1xx_hal_gpio_ex.o"
 "stm32f103_can_chair_a064_v1\stm32f1xx_hal_adc.o"
 "stm32f103_can_chair_a064_v1\stm32f1xx_hal_adc_ex.o"

@@ -28,13 +28,22 @@ void WaterSReset (void); // кнопка WATER S / ЗМИВ ПЛЮВАЛЬНИЦ
 void CoagSet (void); // Coag / Коагулятор ввімкнуто від педалі
 void CoagReset (void); // Coag / Коагулятор вимкнуто від педалі
 
+void OpenCollector1Set (void); // вихід Open Collector 1 ввімкнуто
+void OpenCollector1Reset (void); // вихід Open Collector 1 вимкнуто
+void OpenCollector2Set (void); // вихід Open Collector 2 ввімкнуто
+void OpenCollector2Reset (void); // вихід Open Collector 2 вимкнуто
+
 void StatusLEDSet (void); // ввімкнення світлодіода, який сигналізує про натискання кнопок керування кріслом
 void StatusLEDReset (void); // вимкнення світлодіода, який сигналізує про натискання кнопок керування кріслом
 void ErrorLEDSet (void); // ввімкнення світлодіода, який сигналізує про передачу або відсутність передачі даних по CAN
 void ErrorLEDReset (void); // вимкнення світлодіода, який сигналізує про передачу або відсутність передачі даних по CAN
+void CodeLEDSet (void); // ввімкнення світлодіода Code
+void CodeLEDReset (void); // вимкнення світлодіода Code
 
 uint8_t readButtonPedalONOFF (); // кнопка Pedal_ON/OFF / Педаль ВКЛ./ВИКЛ.
 uint8_t readButtonCHIP (); // кнопка CHIP / ПРОДУВКА
 uint8_t readButtonSPRAY (); // кнопка SPRAY / СПРЕЙ
+
+uint8_t readButtonCoag (); // стан перемички для коагулятора 
 
 #endif
