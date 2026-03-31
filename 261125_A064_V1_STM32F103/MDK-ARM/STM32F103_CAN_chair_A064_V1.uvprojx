@@ -49,7 +49,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>STM32F103_CAN_chair_A064_V1\</OutputDirectory>
-          <OutputName>STM32F103_CAN_chair_A064_V1</OutputName>
+          <OutputName>A064_V1_0_F103_050326</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
