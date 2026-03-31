@@ -1,1 +1,0 @@
-chair_stm32f103_t2000_v1\startup_stm32f103xe.o: startup_stm32f103xe.s
